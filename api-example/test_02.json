@@ -1,0 +1,11 @@
+{
+    "operation": "create",
+    "tableName": "Music",
+    "payload": {
+        "Item": {
+          "Artist": "brooke benton",
+		  "Song": "endlessly",
+		  "Year": "1960"
+		}
+    }
+}

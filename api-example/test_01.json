@@ -1,0 +1,9 @@
+{
+    "operation": "read",
+    "tableName": "Music",
+    "payload": {
+        "Key": {
+          "Artist": "jackie wilson"
+        }
+    }
+}
