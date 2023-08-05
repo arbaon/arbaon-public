@@ -1,4 +1,4 @@
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 #include <locale.h>
 #include <stdbool.h>
 #include <stdlib.h>
