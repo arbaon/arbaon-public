@@ -78,10 +78,17 @@ New functions and changes to note are :
 Example five:
 ```move_a_block.cpp```
 
-This is the last example, put simply it moves a block around the display.
+This is (was) the last example, put simply it moves a block around the display.
 What is actually happening is a quad is drawn to the view area, and a texture is dynamically changed to create the illusion of animation.
 
 ![Moving a block](./moveblock.jpg)
+
+Example six:
+updated: jul 2024
+
+I've added a class example to help with the next steps (below) this can easily be improved if needs be. It performs the same task as example five but the code is resuable for other projects making it more of a template for a pixel engine.
+
+Feel free to use it, but at least give some credit if you do.
 
 ## Next Steps
 
@@ -89,7 +96,7 @@ These examples are only meant to highlight a method of putting a pixel on a scre
 
 These are a few of the things that I have done using a variation of this technique.
 
-* Created a class 'wrapper' based on this process.
+* Created a class 'wrapper' based on this process (example added for this).
 * Created a struct to hold screen array pointer and information about the screen.
 * Created a putpixel function to change the color in the array.
 * Wrote functions to wipe the texture quickly, draw lines, blocks, boxes, circles triangles etc.
