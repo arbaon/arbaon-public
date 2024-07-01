@@ -83,7 +83,9 @@ What is actually happening is a quad is drawn to the view area, and a texture is
 
 ![Moving a block](./moveblock.jpg)
 
+## A little Extra Help
 Example six:
+```6_a_class_example.cpp```
 updated: jul 2024
 
 I've added a class example to help with the next steps (below) this can easily be improved if needs be. It performs the same task as example five but the code is resuable for other projects making it more of a template for a pixel engine.
