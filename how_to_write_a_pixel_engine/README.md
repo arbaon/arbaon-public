@@ -32,7 +32,7 @@ The three main functions (other than the main() function) are as follows:
 See the documentation for GLFW for a clearer understanding of it's features\
 https://www.glfw.org/docs/latest/intro_guide.html
 
-## Gate a framecount
+## Get a framecount
 
 Example two: 
 ```get_a_framecount.cpp```
