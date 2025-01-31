@@ -84,11 +84,21 @@ What is actually happening is a quad is drawn to the view area, and a texture is
 ![Moving a block](./moveblock.jpg)
 
 ## A little Extra Help
-Example six:
+Example six a:
 ```6_a_class_example.cpp```
 updated: jul 2024
 
 I've added a class example to help with the next steps (below) this can easily be improved if needs be. It performs the same task as example five but the code is resuable for other projects making it more of a template for a pixel engine.
+
+## Finally A Wrapper
+Example six b & six c
+```6_b_wrapper.h```
+```6_c_template.cpp```
+updated: jan 2025
+
+I've split the class into a header that can be used with the template. I've also split the block drawing and the pixel drawing into separate functions.
+This is probably the most basic of pixel engines.
+
 
 Feel free to use it, but at least give some credit if you do.
 
@@ -98,10 +108,8 @@ These examples are only meant to highlight a method of putting a pixel on a scre
 
 These are a few of the things that I have done using a variation of this technique.
 
-* Created a class 'wrapper' based on this process (example added for this).
-* Created a struct to hold screen array pointer and information about the screen.
-* Created a putpixel function to change the color in the array.
 * Wrote functions to wipe the texture quickly, draw lines, blocks, boxes, circles triangles etc.
+* Updated openGL and implemented shaders.
 * Wrote a font handler.
 * Created a sprite handler.
 * Added 2d matrix functions.

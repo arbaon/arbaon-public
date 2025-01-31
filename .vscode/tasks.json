@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+{
+    "type": "shell",
+    "label": "C/C++: g++.exe Msys2 GLFW",
+    "command": "D:\\Msys64\\mingw64\\bin\\g++.exe",
+    "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "-std=c++17",
+        "-l",
+        "glfw3",
+        "-l",
+        "user32",
+        "-l",
+        "gdi32",
+        "-l",
+        "opengl32",
+        "-l",
+        "kernel32"
+    ],
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "group": "build"
+}]
+}
